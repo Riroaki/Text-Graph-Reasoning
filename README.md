@@ -61,7 +61,7 @@
 
 ## Usage
 - 目前仅支持训练和测试，没有部署和在线推断的部分
-- 后续测试将尝试新的模型组合
+- 后续测试将尝试新的模型组合，如Comp-GCN等
 ```shell
 $ python main.py --help
 
@@ -126,3 +126,19 @@ optional arguments:
   }
 }
 ```
+
+### Visualization
+
+这里是一些嵌入可视化实例，也可以使用`embeds/visualize.py`生成新的可视化结果：
+
+- GAT+DistMult
+
+ [embed_gat.pdf](embeds/tsne/embed_gat.pdf) 
+
+- R-GCN+DistMult
+
+ [embed_rgcn.pdf](embeds/tsne/embed_rgcn.pdf) 
+
+- BERT Pre-trained embedding+R-GCN+DistMult
+
+ [embed_rgcn_pre_tuned.pdf](embeds/tsne/embed_rgcn_pre_tuned.pdf) 
