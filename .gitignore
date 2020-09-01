@@ -1,0 +1,13 @@
+.vscode/
+*bert/
+data/
+.idea/
+log/
+*.pdf
+*DS_Store
+*.pyc
+*.pth
+*.out
+*.tsv
+*.npz
+*.pth

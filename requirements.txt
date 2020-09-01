@@ -1,0 +1,9 @@
+tqdm==4.45.0
+matplotlib==3.2.1
+dgl_cu100==0.5a200629
+torch==1.2.0
+transformers==2.9.1
+numpy==1.18.2
+dgl==0.4.3.post2
+scikit_learn==0.23.1
+tensorboardX==2.0
